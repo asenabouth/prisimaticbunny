@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Avatar Weaver: Classic World of Darkness (20th Anniversary) Character Generator</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/home.css" type="text/css" />
+	</head>
+	<body>
+		<div class='main'>
+			<div id='container'>
+				<div id="header"><h1>Avatar Weaver 1.0</h1></div>
+				<div id="content">
+					<img src="img/v20_logo.png" id="vampire"/>
+					<img src="img/w20_logo.png" id="werewolf"/>
+					<img src="img/m20_logo.png" id="mage"/> 
+				</div>
+				<div id="gutter"></div>
+		</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#vampire").on("click", function () {
+				console.log("vampire");
+				window.location.href='character_sheet.html?keyword=vampire';
+				return false
+			})	
+		});
+	</script>
+	</body>
+</html>
+
+

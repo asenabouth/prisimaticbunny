@@ -1,0 +1,92 @@
+/*
+Name: Avatar Weaver CSS
+Date: 23/07/14
+Author: Doctor Scientist
+Notes: Pretty Shit
+*/
+
+body {
+  background-color: #3b3c3c;
+  color: #FFFFFF;
+	font-family: Trebuchet, sans-serif;
+	font-size: 14px;
+}
+
+.main {
+ width: auto;
+ height: auto;
+}
+
+#container {
+	display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../img/images/owod_home_01.jpg') top repeat-x,
+              url('../img/images/owod_home_03.jpg') bottom repeat-x;
+}
+
+#header {
+	display: block;
+  position: relative;
+  text-align: center;
+	font-family: 'Cinzel Decorative', cursive;
+	text-rendering: optimizeLegibility;
+  
+  margin-bottom: 0px;
+	font-size: 36px;
+  color: #e0dfdc;
+  height: 236px;
+	width: 100%;
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+}
+
+#content {
+  display: -block;
+  position: relative;
+	background-image: url('../img/images/owod_home_02.jpg');
+  background-repeat: repeat-x;
+  height: 228px;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+#content img {
+	padding: 10px;
+  margin-top: 60px;
+}
+
+#gutter {
+  display: block;
+  height: 50%;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
